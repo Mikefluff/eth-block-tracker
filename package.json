@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "browserify test/basic.js | node",
-    "build": "cross-env BABEL_ENV=commonjs babel src --presets es2015 --out-dir lib"
+    "build": "cross-env BABEL_ENV=commonjs babel src --presets es2015,es2017 --out-dir lib"
   },
   "author": "",
   "license": "ISC",
